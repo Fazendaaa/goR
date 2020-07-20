@@ -1,0 +1,30 @@
+Package: goR
+Title: A Go """binding""" tool to R
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A binding tool to allow R users to call Go code, kinda like 
+    [RCPP](http://adv-r.had.co.nz/Rcpp.html) does it.
+License: GNU v2
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/Fazendaaa/goR
+BugReports: https://github.com/Fazendaaa/goR/issues
+Suggests: 
+    testthat (>= 2.3.2),
+    covr (>= 3.5.0),
+    lintr (>= 2.0.1),
+    roxygen2 (>= 7.1.1),
+    pkgdown (>= 1.5.1),
+    devtools (>= 2.2.2),
+    goodpractice (>= 1.0.2),
+    spelling (>= 2.1)
+Imports: 
+    assertthat (>= 0.2.1)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Language: en-US
